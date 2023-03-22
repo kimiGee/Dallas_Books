@@ -1,0 +1,581 @@
+p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Merriweather", serif;
+}
+
+/*---------------- homepage -----------------*/
+
+.book-background {
+  background-image: url("../images/home-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  align-content: center;
+  background-attachment: fixed;
+}
+
+.white-background {
+  background-image: url("../images/white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  background-attachment: fixed;
+}
+
+.gray-background {
+  background-image: url("../images/gray.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  align-content: center;
+  background-attachment: fixed;
+}
+
+.pink-background {
+  background-image: url("../images/pink.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  align-content: center;
+  background-attachment: fixed;
+}
+
+.red-background {
+  background-image: url("../images/red.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  align-content: center;
+  background-attachment: fixed;
+}
+
+.stack-background {
+  background-image: url("../images/stack.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  align-content: center;
+  background-attachment: fixed;
+}
+
+.library-background {
+  background-image: url("../images/library.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  align-content: center;
+}
+
+.center {
+  padding: 20px 0 0 10px;
+  align-items: center;
+  justify-items: center; /* adjusted */
+}
+
+.button-center {
+  text-align: center;
+}
+
+.button-left {
+  text-align: left;
+}
+
+.grid-container {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  display: grid;
+  grid-template-columns: 2.3fr 1.2fr;
+  grid-gap: 20px;
+}
+
+.team-grid-container {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.top-grid-container {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.grid-child {
+  color: white;
+}
+
+.team {
+  background-color: white;
+  color: #222222;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-heading {
+  background-color: rgba(255, 255, 255);
+  color: #222222;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 5%;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  line-height: 75%;
+}
+
+.open-book-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+  margin-top: 5%;
+  width: auto;
+  height: 100px;
+}
+
+.banner-img {
+  margin: 4% 0 0 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 70px;
+}
+
+.reg-text {
+  font-family: "Merriweather", sans-serif;
+  color: white;
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+
+/* --------------------------------------------------------- */
+
+/* ---------------------- Navbar --------------------------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding-right: 5%;
+  padding-left: 5%;
+  z-index: 3;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.nav-link:hover {
+  color: #78a1de;
+}
+
+.nav-link:active {
+  color: #78a1de;
+}
+
+.nav-logo {
+  width: 40%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.9vw;
+}
+
+/*----------------Navbar-end----------------- */
+
+/* Buttons */
+
+.lg-blue {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #78a1de;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 25%;
+  display: block;
+  margin: 10px 0 0 0;
+}
+
+.lg-red {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #c12a3b;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 25%;
+  display: block;
+  margin: 10px 0 0 0;
+}
+
+.lg-orange {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #ffb570;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 25%;
+  display: block;
+  margin: 10px 0 0 0;
+}
+
+/* ------------------------------------------- */
+/* -----------register----------------- */
+
+.register-form {
+  width: 80%;
+  height: 110vh;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 2%;
+  color: white;
+  z-index: 2;
+  position: absolute;
+  top: 58%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+
+.registrationContent {
+  font-family: "roboto, sans-serif";
+}
+
+.registrationContainer {
+  padding: 2em 1.5em 2em 1.5em;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.bookContainer {
+  padding: 2em 1.5em 2em 1.5em;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.invContainer {
+  padding: 2em 1.5em 2em 1.5em;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 60%;
+  left: 31.25%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.registration {
+  width: 20em;
+  display: block;
+  margin: 5px 0 0 0;
+}
+
+.reg-form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 100%;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+.col-25 {
+  float: left;
+  width: 40%;
+  margin-top: 5px;
+}
+
+.col-75 {
+  float: left;
+  width: 60%;
+  margin-top: 5px;
+}
+
+.col-20 {
+  float: left;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.col-80 {
+  float: left;
+  width: 60%;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* -----------------Admin Dashboard------------------------------------------ */
+
+.user-container {
+  padding: 2em 1.5em 2em 1.5em;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.user-entry {
+  padding: 1em 2em 1em 2em;
+  font-family: "Poppins", sans-serif;
+}
+
+.user-heading {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.sm-green {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 25%;
+  margin: 10px 0 0 0;
+}
+
+.sm-red {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #c12a3b;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 25%;
+  margin: 10px 0 20px 0;
+}
+
+/* -------------Book Search----------------- */
+
+/* Just some basic CSS declarations to start with */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+h4 {
+  margin: 5px 0; /* Just to make the demo look nicer */
+}
+
+#loginArea {
+  border-radius: 15px;
+  font-family: "poppins";
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  background-color: #aa4a44;
+  color: #ffffff;
+  display: block;
+  width: 60%; /* You could use anything here, depending if you have a wrapping parent etc */
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  margin: 10% 0 2% 0;
+}
+
+#search-form {
+  position: relative;
+  display: flex;
+  align-items: center; /* Not necessary but will center the items */
+  flex-direction: row; /* Not necessary but tells that they should be in a row */
+  justify-content: flex-start; /* Will align items to left on larger screens */
+  flex-wrap: wrap; /* Will allow the flex inputs to wrap on smaller screens */
+}
+
+#search-form > * {
+  /* You could give a class or element instead of asterix */
+  margin: 0 10px 5px 0; /* Just to make it look nices */
+  width: 25%; /* Width of text inputs, you could set them different from each other */
+  min-width: 100px; /* Min width to wrap elements when small screen */
+  flex: 1;
+}
+
+#search-form .search_button {
+  max-height: 2.5em;
+  flex: 0 0 2.5em; /* Keep the magnifying class proportioned/20px wide */
+  min-width: 0px; /* Do not use the min-width declared above */
+  margin: 0 0 5px 0;
+}
+
+.search_img {
+  max-height: 2.5em;
+  flex: 0 0 2.5em; /* Keep the magnifying class proportioned/20px wide */
+  min-width: 0px; /* Do not use the min-width declared above */
+  margin: 0 0 5px 0;
+}
+
+.search_button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.cover-preview {
+  width: 165px;
+}
+
+.search-results {
+  border-radius: 15px;
+  font-family: "poppins";
+  font-size: 1em;
+  padding: 20px;
+  background-color: white;
+  display: block;
+  width: 90%; /* You could use anything here, depending if you have a wrapping parent etc */
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sm-gold {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #d4af37;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 25%;
+  margin: 10px 0 20px 0;
+}
